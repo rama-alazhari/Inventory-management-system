@@ -1,0 +1,17 @@
+/*/////////////sign up///////////////////////////////////////// */
+.input-icon-container {  
+    position: relative; /* لعزل الأيقونة بالنسبة لحقل الإدخال */  
+  }  
+  
+  .input-with-icon {  
+    padding-left: 30px; /* مساحة الجانب الأيسر لإفساح المجال للأيقونة */  
+  }  
+  
+  .input-icon {  
+    position: absolute;  
+    left: 10px; /* موقع الأيقونة داخل الحقل */  
+    top: 50%; /* توسيط عمودي */  
+    transform: translateY(-50%); /* تعديل الموضع بشكل دقيق */  
+    pointer-events: none; /* لتجنب تداخل الأيقونة مع أحداث الإدخال */  
+  }
+
